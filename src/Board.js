@@ -12,9 +12,6 @@ class Board extends React.Component {
       <Square
         value={ [squares[i]] }
         onClick={() => {
-          console.log('*************')
-          console.log(this)
-          console.log('*************')
           onClick(i)
         }}
       />
